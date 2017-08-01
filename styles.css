@@ -1,0 +1,84 @@
+/* This is my own stylesheet for my home page */
+
+/* Colors, positions and paddings */
+body{
+    background-color: darkslategrey;
+}
+
+.container{
+    background-color: ghostwhite;
+}
+
+.description{
+    padding-left: 10px;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+    list-style-type: none;
+}
+
+.main-content{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(27,27,27);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sidebar{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(27,27,27);
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+li {
+    display: inline;
+}
+
+nav a{
+    padding: 6px 10px;
+}
+
+nav{
+    background-color: darkslategray;
+    box-shadow: 2px 2px 10px black;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+/* Typography */
+.description{
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-size: 11px;
+}
+
+#page-title{
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a{
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: ghostwhite;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgb(27,27,27);
+}
