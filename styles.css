@@ -1,23 +1,15 @@
 /* This is my own stylesheet for my home page */
 
+/* ------------------------------ */
 /* Colors, positions and paddings */
+/* ------------------------------ */
+
 body{
     background-color: darkslategrey;
 }
 
 .container{
     background-color: ghostwhite;
-}
-
-.description{
-    padding-left: 10px;
-}
-
-.navigation{
-    position: absolute;
-    bottom: 5px;
-    right: 40px;
-    list-style-type: none;
 }
 
 .main-content{
@@ -48,32 +40,39 @@ li {
     display: inline;
 }
 
-nav a{
-    padding: 6px 10px;
-}
-
 nav{
     background-color: darkslategray;
     box-shadow: 2px 2px 10px black;
+    height: 130px;
     padding: 15px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
-/* Typography */
-.description{
-    color: ghostwhite;
-    font-family: Helvetica;
-    font-size: 11px;
+nav a{
+    line-height: 20px;
+    padding: 6px 10px;
+    width: 90px;
 }
 
-#page-title{
-    color: ghostwhite;
-    font-family: Helvetica;
-    font-size: 25px;
-    font-weight: 600;
-    text-transform: uppercase;
+nav h1{
+    float: left;
+    margin: 5px 10px;
+    
 }
+
+nav ul{
+    line-height: 20px;
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;   
+}
+
+/* ---------- */
+/* Typography */
+/* ---------- */
 
 nav a{
     color: ghostwhite;
@@ -87,4 +86,12 @@ nav a:hover{
     color: ghostwhite;
     text-decoration: none;
     text-shadow: 2px 2px 3px rgb(27,27,27);
+}
+
+nav h1{
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
