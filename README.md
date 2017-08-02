@@ -1,2 +1,2 @@
-# improved-home-page
-Home page created with Bootstrap. This is my second learning project.
+# Improved Home Page
+This is my second learning project.
